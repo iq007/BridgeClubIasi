@@ -1,0 +1,5 @@
+AuthUserFile /.htpasswd
+AuthType Basic
+AuthName "books"
+Require valid-user
+
