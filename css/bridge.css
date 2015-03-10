@@ -16,4 +16,33 @@ body {
   
 .footer {
   text-align: center;
-} 
+}
+
+.label{
+    color: #101010;
+}
+
+.input-group{
+    width: 100%;
+}
+
+/*.alert{
+    position:fixed;
+    top: 30%;
+    left: 50%;
+    height: 10em;
+    width:20em;
+    margin-top: -5em;
+    margin-left: -10em;
+    text-align: center;
+
+}*/
+
+.alert{
+
+    width:97%;
+    margin-right: auto; /*set to a negative number 1/2 of your width*/
+    margin-left: auto; /*set to a negative number 1/2 of your width*/
+    text-align: center;
+
+}

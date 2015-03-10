@@ -18,7 +18,18 @@
               <li id="br_menu_noutati" <?php if ($currentURL == "index.php") echo "class=\"active\"";?> ><a href="index.php">Noutati</a></li>
               <li id="br_menu_rezultate" <?php if ($currentURL == "rezultate.php")  echo "class=\"active\"";?>><a href="rezultate.php">Rezultate</a></li>
               <li id="br_menu_resurse" <?php if ($currentURL == "resurse.php")  echo "class=\"active\"";?>><a href="resurse.php">Resurse</a></li>
-			  <li id="br_menu_forum" <?php if ($currentURL == "forum.php") echo  "class=\"active\"";?>><a href="forum.php">Forum</a></li>
+
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Concurs Iasi 2015<span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="concurs.php">Detalii concurs</a></li>
+                        <li><a href="cazare.php">Rezervari cazare</a></li>
+                        <li><a href="perechi.php">Inscriere perechi</a></li>
+                        <li><a href="perechi.php">Inscriere echipe</a></li>
+                    </ul>
+                </li>
+
+
               <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">Legaturi <span class="caret"></span></a>
                 <ul role="menu" class="dropdown-menu">

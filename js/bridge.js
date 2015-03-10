@@ -1,3 +1,7 @@
+function hideAlerts(){
+    $('.alert').hide();
+}
+
 function hide(id){
 	$('#'+id).hide();
 	$('#'+id+'_button').removeClass('active');
@@ -49,3 +53,22 @@ function showContest(str) {
   xmlhttp.open("GET","rezultate_arhiva.php?q="+str,true);
   xmlhttp.send();
 }
+
+
+$(document).ready(function () {
+    $("input#trimite").click(function(){
+        $.ajax({
+            type: "POST",
+            url: "procesare_forma.php", //process to mail
+            data: $('form.contact').serialize(),
+            success: function(msg){
+                $("#thanks").html(msg) //hide button and show thank you
+                $("#form-content").modal('hide'); //hide popup
+            },
+            error: function(){
+                alert("failure");
+            }
+        });
+    });
+
+});
