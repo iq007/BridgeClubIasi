@@ -141,7 +141,7 @@
                             <label class="label" for="message">Optiuni cazare</label></br>
                             <select name="optiunecazare" class="input-xlarge">
 
-                                <?
+                                <?php
                                     try {
                                         $datas = $database->select("optiunicazare", "*");
                                         foreach ($datas as $data) {
