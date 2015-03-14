@@ -13,7 +13,7 @@
 
 <div id="br_concurs_noutati" class="container" role="main">
     <div class="jumbotron">
-        <p>Bridge Club Iasi va invita la concursul de bridge Memorialul "Grigore Alexandrescu" care va avea loc in perioada 12 Aprilie - 15 Aprilie 2015 la motel Bucium.</p>
+        <p>Bridge Club Iasi va invita la Memorialul "Grigore Alexandrescu" care va avea loc in perioada 17 Aprilie - 19 Aprilie 2015 la motel Bucium, sub patronajul Federatiei Romane de Bridge.</p>
         <p>&nbsp;</p>
         <div id="br_concurs_info" class="well" style="display: block; text-align: center">
             <div class="row">
@@ -44,10 +44,10 @@
                             <h3 class="panel-title"><i class="fa fa-info fa-lg"> Program </i></h3>
                         </div>
                         <div class="panel-body">
-                            <b>Vineri,  25 Aprilie</b></br>16.30 - Perechi Open - Sesiunea I</br>21.00 - Perechi Open - Sesiunea II</br></br>
-                            <b>Sambata, 26 Aprilie</b></br>9.30 - Echipe Danez - Rundele I-IV</br>15.30 - Echipe Danez - Rundele V-VIII</br>
-                                21.00 - Cine festiva din partea organizatorilor</br></br>
-                            <b>Duminica, 27 Aprilie</b></br>10.00 - Echipe Danez rundele 9-11 divizia B si divizia C</br>
+                            <b>Vineri,  17 Aprilie</b></br>16.00 - Perechi Open - Sesiunea I</br>20.30 - Perechi Open - Sesiunea II</br></br>
+                            <b>Sambata, 18 Aprilie</b></br>9.30 - Echipe Danez - Rundele I-IV</br>15.30 - Echipe Danez - Rundele V-VIII</br>
+                                21.00 - Cine festiva oferita de organizator</br></br>
+                            <b>Duminica, 19 Aprilie</b></br>10.00 - Echipe Danez rundele 9-11 divizia B si divizia C</br>
                             10.00 - Echipe Danez Semifinale divizia A - loc I cu loc IV ; loc II cu loc III</br>
                             11:30 - Finala mica - Pierzatoarele din semifinale</br>
                             11:30 - Finala mare - Castigatoarele din seminfinale
@@ -61,9 +61,9 @@
                             <h3 class="panel-title"><i class="fa fa-trophy fa-lg"> Premii </i></h3>
                         </div>
                         <div class="panel-body">
-                            <b>Open</b></br>I - 3000 RON + Cupe</br>II - 1800 RON + Cupe</br>III - 1000 RON + Cupe</br>IV - 700 RON</br>V - 500 RON</br>VI - 300 RON</br></br>
-                            <b>Echipe</b></br>IA - 4000 RON + Cupe</br>IIA - 2400 RON + Cupe</br>IIIA - 1800 RON + Cupe</br>IVA - 700 RON</br>IB - 700 RON</br>IIB - 500 RON</br>IC - 500 RON</br></br>
-                            <b>Premii speciale</b></br>Loc 1 tur 2 nepremiat - 350 RON</br>Cea mai bine axa ieseana nepremiata - 300 RON</br></br>
+                            <b>Open</b></br>I - 2500 RON + Cupe</br>II - 1500 RON + Cupe</br>III - 1000 RON + Cupe</br>IV - 700 RON</br>V - 500 RON</br>VI - 300 RON</br></br>
+                            <b>Echipe</b></br>IA - 4000 RON + Cupe</br>IIA - 2400 RON + Cupe</br>IIIA - 1200 RON + Cupe</br>IB - 700 RON</br>IIB - 500 RON</br>IC - 500 RON</br></br>
+                            <b>Premii speciale</b></br>Loc 1 tur 2 nepremiat - 300 RON</br>Cea mai bine clasata axa ieseana nepremiata - 250 RON</br></br>
                             <b>Premiile nu sunt conditionate de numarul de participanti!</b>
 
                         </div>
@@ -85,7 +85,7 @@
 
                     <div class="panel panel-info"  style="text-align: left">
                         <div class="panel-body">
-                            <p>Inscrierile se fac telefonic la numarul <a href="tel:0723280290">0723 280 290</a> până la data de 24.04.2014 sau <a href="http://www.iasi.bridge-club.ro/" target="_new">http://www.iasi.bridge-club.ro/</a>
+                            <p>Inscrierile se fac telefonic la numarul <a href="tel:0726745146">0726 745 146</a> până la data de 14.04.2014 sau <a href="http://www.iasi.bridge-club.ro/" target="_new">http://www.iasi.bridge-club.ro/</a>
                             </p>
                             <p>Confirmarile se sisteaza cu 60 de minute inainte de inceperea
                                 fiecarui concurs.
@@ -94,7 +94,10 @@
                             </p>
                             <p>In sala de concurs, FUMATUL ESTE INTERZIS !
                             </p>
-                            <p>Manager Turneu - Olteanu Romeo
+                            <p>Manager Turneu: Olteanu Romeo</br>
+                                Director Turneu: Damboianu Calin</br>
+                                Arbitru: Craciun Adrian</br>
+                                Arbitu: Ghergheli Carol
                             </p>
 
                         </div>
@@ -149,7 +152,7 @@
                                         }
                                     }
                                     catch(Exception $e){
-
+                                        echo ("Exception");
                                     }
 
                                 ?>
