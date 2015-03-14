@@ -145,7 +145,7 @@
                             <select name="optiunecazare" class="input-xlarge">
 
                                 <?php
-                                    try {
+                                    /*try {
                                         $datas = $database->select("optiunicazare", "*");
                                         foreach ($datas as $data) {
                                             echo "<option>" . $data['Hotel'] . " - " . $data['Camera'] . " (" . $data['Pret'] . " " . $data['Valuta'] . ") </option>";
@@ -153,7 +153,7 @@
                                     }
                                     catch(Exception $e){
                                         echo ("Exception");
-                                    }
+                                    }*/
 
                                 ?>
 

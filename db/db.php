@@ -21,6 +21,6 @@ try{
     ]);
 }
 catch(Exception $e){
-    echo ("Exception DB");
+    //echo ("Exception DB");
 }
 ?>
