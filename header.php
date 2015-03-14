@@ -19,7 +19,7 @@
         <!-- Bridge club iasi -->
         <link href="css/bridge.css" rel="stylesheet">
 
-        <?php require_once('./db/db.php') ?>
+
 
 
 

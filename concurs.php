@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include 'header.php';?>
-
+    <?php include './db/db.php';?>
 </head>
 
 
