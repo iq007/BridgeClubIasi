@@ -1,6 +1,6 @@
 <?php
 
-require_once('./db/medoo.min.php');
+require_once('ext/db/medoo.min.php');
 
 try{
     $database = new medoo([
