@@ -13,7 +13,7 @@
 
 <div id="br_concurs_noutati" class="container" role="main">
     <div class="jumbotron">
-        <p>Bridge Club Iasi va invita la Memorialul "Grigore Alexandrescu" care va avea loc in perioada 17 Aprilie - 19 Aprilie 2015 la motel Bucium, sub patronajul Federatiei Romane de Bridge.</p>
+        <p>Bridge Club Iasi va invita la Memorialul "Emil Alexandrescu" care va avea loc in perioada 17 Aprilie - 19 Aprilie 2015 la motel Bucium, sub patronajul Federatiei Romane de Bridge.</p>
         <p>&nbsp;</p>
         <div id="br_concurs_info" class="well" style="display: block; text-align: center">
             <div class="row">
@@ -145,15 +145,15 @@
                             <select name="optiunecazare" class="input-xlarge">
 
                                 <?php
-                                    /*try {
+                                    try {
                                         $datas = $database->select("optiunicazare", "*");
                                         foreach ($datas as $data) {
                                             echo "<option>" . $data['Hotel'] . " - " . $data['Camera'] . " (" . $data['Pret'] . " " . $data['Valuta'] . ") </option>";
                                         }
                                     }
                                     catch(Exception $e){
-                                        echo ("Exception");
-                                    }*/
+                                        echo "<option>No DB connection!</option>";
+                                    }
 
                                 ?>
 
