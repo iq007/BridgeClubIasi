@@ -137,7 +137,7 @@
                             <div class="input-daterange input-group" id="datepicker" required="true">
                                 <input type="text" class="input-sm form-control" name="start" />
                                 <span class="input-group-addon"> - </span>
-                                <input type="text" class="input-sm form-control" name="end" />
+                                <input type="text" class="input-sm form-control" name="stop" />
                             </div>
                         </div>
                         <div class="col-md-12">
@@ -148,7 +148,7 @@
                                     try {
                                         $datas = $database->select("optiunicazare", "*");
                                         foreach ($datas as $data) {
-                                            echo "<option>" . $data['Hotel'] . " - " . $data['Camera'] . " (" . $data['Pret'] . " " . $data['Valuta'] . ") </option>";
+                                            echo "<option value=\"" . $data['ID'] . "\">" . $data['Hotel'] . " - " . $data['Camera'] . " (" . $data['Pret'] . " " . $data['Valuta'] . ") </option>";
                                         }
                                     }
                                     catch(Exception $e){
