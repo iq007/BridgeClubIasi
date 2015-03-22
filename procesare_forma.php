@@ -26,7 +26,7 @@
 
 
     $email->addTo($myemail)
-        ->setFrom($fromemail)
+        ->setFrom($api_user)
         ->setSubject($subject)
         ->setHtml($name + " " + $optiunecazare);
 
