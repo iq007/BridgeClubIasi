@@ -22,16 +22,7 @@
     <script src="js/validator.min.js"></script>
     <script src="js/bridge.js"></script>
 
-    <script>
 
-        $('.input-daterange').datepicker({
-            weekStart: 1,
-            startDate: "04/24/2015",
-            endDate: "04/26/2015",
-            clearBtn: true,
-            autoclose: true
-        });
-    </script>
 
 
 

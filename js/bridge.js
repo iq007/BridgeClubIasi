@@ -79,6 +79,15 @@ $(document).ready(function(){
         }
     })
 
+
+    $('.input-daterange').datepicker({
+        weekStart: 1,
+        startDate: "04/17/2015",
+        endDate: "04/19/2015",
+        clearBtn: true,
+        autoclose: true
+    });
+
 });
 
 
