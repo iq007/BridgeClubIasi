@@ -55,20 +55,32 @@ function showContest(str) {
 }
 
 
-$(document).ready(function () {
-    $("input#trimite").click(function(){
-        $.ajax({
-            type: "POST",
-            url: "procesare_forma.php", //process to mail
-            data: $('form.contact').serialize(),
-            success: function(msg){
-                $("#thanks").html(msg) //hide button and show thank you
-                $("#form-content").modal('hide'); //hide popup
-            },
-            error: function(){
-                alert("failure");
-            }
-        });
-    });
+
+$(document).ready(function(){
+
+    $('#contact').validator().on('submit', function (e){
+        if(e.isDefaultPrevented()){
+
+        }
+        else {
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: "procesare_forma.php", //process to mail
+                data: $('#contact').serialize(),
+                success: function (msg) {
+                    $("#thanks").html(msg);//hide button and show thank you
+                    $("#form-content").modal('hide'); //hide popup
+                },
+                error: function () {
+                    alert("failure");
+                }
+            });
+        }
+    })
 
 });
+
+
+
+

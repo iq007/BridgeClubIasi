@@ -118,31 +118,32 @@
                 <h3>Rezervare cazare</h3>
             </div>
             <div class="modal-body">
-                <form class="contact" name="contact">
+                <form id="contact" name="contact" data-toggle="validator" role="form">
                     <div class="row">
-                        <div class="col-md-6">
-                            <label class="label" for="name">Nume</label></br>
-                            <input type="text" name="name" class="input-xlarge" required="true">
+                        <div class="col-md-6 form-group">
+                            <label class="control-label" for="name">Nume</label></br>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Stefan Ionescu" required="true" data-disable="false">
                         </div>
-                        <div class="col-md-6">
-                            <label class="label" for="email">E-mail</label></br>
-                            <input type="email" name="email" class="input-xlarge" required="true">
+                        <div class="col-md-6 form-group">
+                            <label class="control-label" for="email">E-mail</label></br>
+                            <input type="email" name="email" class="form-control" required="true" placeholder="stefan@bridge.com" required="true" data-error="E-mail-ul nu este valid!">
+                            <div class="help-block with-errors"></div>
                         </div>
-                        <div class="col-md-6">
-                            <label class="label" for="telefon">Telefon</label></br>
-                            <input type="text" name="telefon" class="input-xlarge" required="true"><br></br>
+                        <div class="col-md-6 form-group">
+                            <label class="control-label" for="telefon">Telefon</label></br>
+                            <input type="text" name="telefon" class="form-control" required="true"><br></br>
                         </div>
-                        <div class="col-md-6">
-                            <label class="label" for="datepicker">Perioada</label><br>
+                        <div class="col-md-6 form-group">
+                            <label class="control-label" for="datepicker">Perioada</label><br>
                             <div class="input-daterange input-group" id="datepicker" required="true">
-                                <input type="text" class="input-sm form-control" name="start" />
+                                <input type="text" class="input-sm form-control" name="start" required="true"/>
                                 <span class="input-group-addon"> - </span>
-                                <input type="text" class="input-sm form-control" name="stop" />
+                                <input type="text" class="input-sm form-control" name="stop" required="true"/>
                             </div>
                         </div>
-                        <div class="col-md-12">
-                            <label class="label" for="message">Optiuni cazare</label></br>
-                            <select name="optiunecazare" class="input-xlarge">
+                        <div class="col-md-12 form-group">
+                            <label class="control-label" for="message">Optiuni cazare</label></br>
+                            <select name="optiunecazare" class="form-control" required="true">
 
                                 <?php
                                     try {
@@ -162,12 +163,13 @@
                         </div>
 
                     </div>
-                </form>
+
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer form-group">
                 <input class="btn btn-success" type="submit" value="Trimite" id="trimite">
                 <a href="#" class="btn" data-dismiss="modal">Inchide</a>
             </div>
+            </form>
         </div>
     </div>
 </div>

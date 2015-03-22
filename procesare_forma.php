@@ -82,28 +82,3 @@
 
 
 
-/*
-
-
-
-//generate email and send!
-$to = $myemail;
-$email_subject = "Contact form submission: $name";
-$email_body = "You have received a new message. ".
-    " Here are the details:\n Name: $name \n ".
-    "Email: $email\n Message \n $optiunecazare";
-$headers = "From: $myemail\n";
-$headers .= "Reply-To: $email";
-
-if(mail($to,$email_subject,$email_body,$headers)){
-}
-else
-{
-    echo "<div class=\"alert alert-danger alert-dismissible\" role=\"alert\">
- <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>
-    Rezervarea nu s-a putut efectua. Va rugam incercati mai tarziu.</div>";
-}
-
-*/
-
-
