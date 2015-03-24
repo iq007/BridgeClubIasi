@@ -25,18 +25,14 @@ body {
 .input-group{
     width: 100%;
 }
+.social{
+    text-align: right;
+    padding-top: 10px;
+}
 
-/*.alert{
-    position:fixed;
-    top: 30%;
-    left: 50%;
-    height: 10em;
-    width:20em;
-    margin-top: -5em;
-    margin-left: -10em;
-    text-align: center;
-
-}*/
+.social-collapse{
+    text-align: left;
+}
 
 .alert{
 

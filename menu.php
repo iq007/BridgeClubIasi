@@ -19,9 +19,6 @@
               <li id="br_menu_rezultate" <?php if ($currentURL == "rezultate.php")  echo "class=\"active\"";?>><a href="rezultate.php">Rezultate</a></li>
               <li id="br_menu_resurse" <?php if ($currentURL == "resurse.php")  echo "class=\"active\"";?>><a href="resurse.php">Resurse</a></li>
                 <li id="br_menu_concurs" <?php if ($currentURL == "concurs.php")  echo "class=\"active\"";?>><a href="concurs.php">Concurs Iasi 2015</a></li>
-
-
-
               <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">Legaturi <span class="caret"></span></a>
                 <ul role="menu" class="dropdown-menu">
@@ -39,6 +36,11 @@
                 </ul>
               </li>
             </ul>
+              <div class="social">
+                  <a target="_blank" href="https://www.facebook.com/bridgeiasi"><i class="fa fa-inverse fa-facebook-official fa-2x"></i></a>
+              </div>
           </div><!--/.nav-collapse -->
+
         </div>
+
       </div>
