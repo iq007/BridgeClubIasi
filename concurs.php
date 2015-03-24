@@ -24,10 +24,10 @@
                     </br> <a  data-toggle="modal" href="#" data-target="#form-content"><i class="fa fa-bed fa-lg"> Rezervari cazare </i></a></br></br>
                 </div>
                 <div class="col-md-3">
-                    </br> <a href="#"><i class="fa fa-user-plus fa-lg" onClick="toggle('br_perechi_info');"> Inscrieri perechi </i></a></br></br>
+                    </br> <a href="#" data-toggle="modal" data-target="#form-perechi"><i class="fa fa-user-plus fa-lg"> Inscrieri perechi </i></a></br></br>
                 </div>
                 <div class="col-md-3">
-                    </br><a href="#"><i class="fa fa-users fa-lg" onClick="toggle('br_echipe_info');"> Inscrieri echipe </i></a></br></br>
+                    </br><a href="#" data-toggle="modal" data-target="#form-echipe"><i class="fa fa-users fa-lg"> Inscrieri echipe </i></a></br></br>
                 </div>
             </div>
 
@@ -175,6 +175,95 @@
 </div>
 
 
+
+<div id="form-perechi" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="form-perechi" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">×</a>
+                <h3>Inscrieri perechi</h3>
+            </div>
+            <div class="modal-body">
+                <form id="perechi" name="perechi" data-toggle="validator" role="form">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label class="control-label" for="jucator1">Jucator 1</label></br>
+                            <input type="text" name="jucator1" id="jucator1" class="form-control" placeholder="Stefan Ionescu" required="true" data-disable="false">
+                        </div>
+
+                        <div class="col-md-6 form-group">
+                            <label class="control-label" for="jucator2">Jucator 2</label></br>
+                            <input type="text" name="jucator2" class="form-control"  placeholder="George Popescu" required="true"><br></br>
+                        </div>
+
+                        <div class="col-md-12 form-group">
+                            <label class="control-label" for="email">E-mail contact</label></br>
+                            <input type="email" name="email" class="form-control" required="true" placeholder="stefan@bridge.com" required="true" data-error="E-mail-ul nu este valid!">
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                    </div>
+
+            </div>
+            <div class="modal-footer form-group">
+                <input class="btn btn-success" type="submit" value="Trimite" id="trimite">
+                <a href="#" class="btn" data-dismiss="modal">Inchide</a>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div id="form-echipe" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="form-echipe" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">×</a>
+                <h3>Inscrieri echipe</h3>
+            </div>
+            <div class="modal-body">
+                <form id="echipe" name="echipe" data-toggle="validator" role="form">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label class="control-label" for="jucator1">Jucator 1</label></br>
+                            <input type="text" name="jucator1" id="jucator1" class="form-control" placeholder="Stefan Ionescu" required="true" data-disable="false">
+                        </div>
+
+                        <div class="col-md-6 form-group">
+                            <label class="control-label" for="jucator2">Jucator 2</label></br>
+                            <input type="text" name="jucator2" class="form-control"  placeholder="George Popescu" required="true"><br></br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label class="control-label" for="jucator3">Jucator 3</label></br>
+                            <input type="text" name="jucator3" id="jucator3" class="form-control" placeholder="Ion Georgescu" required="true" data-disable="false">
+                        </div>
+
+                        <div class="col-md-6 form-group">
+                            <label class="control-label" for="jucator4">Jucator 4</label></br>
+                            <input type="text" name="jucator4" class="form-control"  placeholder="Vasile Craioveanu" required="true"><br></br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <label class="control-label" for="email">E-mail contact</label></br>
+                            <input type="email" name="email" class="form-control" required="true" placeholder="stefan@bridge.com" required="true" data-error="E-mail-ul nu este valid!">
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                    </div>
+
+            </div>
+            <div class="modal-footer form-group">
+                <input class="btn btn-success" type="submit" value="Trimite" id="trimite">
+                <a href="#" class="btn" data-dismiss="modal">Inchide</a>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 
 <?php include 'footer.php';?>

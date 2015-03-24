@@ -66,7 +66,7 @@ $(document).ready(function(){
             e.preventDefault();
             $.ajax({
                 type: "POST",
-                url: "procesare_forma.php", //process to mail
+                url: "procesare_forma.php?action=cazare", //process to mail
                 data: $('#contact').serialize(),
                 success: function (msg) {
                     $("#thanks").html(msg);//hide button and show thank you
@@ -78,6 +78,50 @@ $(document).ready(function(){
             });
         }
     })
+
+    $('#perechi').validator().on('submit', function (e){
+        if(e.isDefaultPrevented()){
+
+        }
+        else {
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: "procesare_forma.php?action=perechi", //process to mail
+                data: $('#perechi').serialize(),
+                success: function (msg) {
+                    $("#thanks").html(msg);//hide button and show thank you
+                    $("#form-perechi").modal('hide'); //hide popup
+                },
+                error: function () {
+                    alert("failure");
+                }
+            });
+        }
+    })
+
+
+    $('#echipe').validator().on('submit', function (e){
+        if(e.isDefaultPrevented()){
+
+        }
+        else {
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: "procesare_forma.php?action=echipe", //process to mail
+                data: $('#echipe').serialize(),
+                success: function (msg) {
+                    $("#thanks").html(msg);//hide button and show thank you
+                    $("#form-echipe").modal('hide'); //hide popup
+                },
+                error: function () {
+                    alert("failure");
+                }
+            });
+        }
+    })
+
 
 
     $('.input-daterange').datepicker({
