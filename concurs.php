@@ -18,7 +18,7 @@
         <div id="br_concurs_info" class="well" style="display: block; text-align: center">
             <div class="row">
                 <div class="col-md-3">
-                    </br><a href="#"><i class="fa fa-info fa-lg" onClick="toggle('br_concurs_details_info');"> Informatii concurs </i></a></br></br>
+                    </br><a href="#br_concurs_details_info" data-toggle="collapse"><i class="fa fa-info fa-lg"> Informatii concurs </i></a></br></br>
                 </div>
                 <div class="col-md-3">
                     </br> <a  data-toggle="modal" href="#" data-target="#form-content"><i class="fa fa-bed fa-lg"> Rezervari cazare </i></a></br></br>
@@ -36,77 +36,79 @@
             <div id="thanks"></div>
         </div>
     </div>
-        <div id="br_concurs_details_info" class="well" style="display: none";>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="panel panel-info"  style="text-align: center">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"><i class="fa fa-info fa-lg"> Program </i></h3>
-                        </div>
-                        <div class="panel-body">
-                            <b>Vineri,  17 Aprilie</b></br>16.00 - Perechi Open - Sesiunea I</br>20.30 - Perechi Open - Sesiunea II</br></br>
-                            <b>Sambata, 18 Aprilie</b></br>9.30 - Echipe Danez - Rundele I-IV</br>15.30 - Echipe Danez - Rundele V-VIII</br>
-                                21.00 - Cine festiva oferita de organizator</br></br>
-                            <b>Duminica, 19 Aprilie</b></br>10.00 - Echipe Danez rundele 9-11 divizia B si divizia C</br>
-                            10.00 - Echipe Danez Semifinale divizia A - loc I cu loc IV ; loc II cu loc III</br>
-                            11:30 - Finala mica - Pierzatoarele din semifinale</br>
-                            11:30 - Finala mare - Castigatoarele din seminfinale
-                            </br>13.30 - Festivitatea de premiere</br>
+
+            <div id="br_concurs_details_info" class="collapse well">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="panel panel-info"  style="text-align: center">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-info fa-lg"> Program </i></h3>
+                            </div>
+                            <div class="panel-body">
+                                <b>Vineri,  17 Aprilie</b></br>16.00 - Perechi Open - Sesiunea I</br>20.30 - Perechi Open - Sesiunea II</br></br>
+                                <b>Sambata, 18 Aprilie</b></br>9.30 - Echipe Danez - Rundele I-IV</br>15.30 - Echipe Danez - Rundele V-VIII</br>
+                                    21.00 - Cine festiva oferita de organizator</br></br>
+                                <b>Duminica, 19 Aprilie</b></br>10.00 - Echipe Danez rundele 9-11 divizia B si divizia C</br>
+                                10.00 - Echipe Danez Semifinale divizia A - loc I cu loc IV ; loc II cu loc III</br>
+                                11:30 - Finala mica - Pierzatoarele din semifinale</br>
+                                11:30 - Finala mare - Castigatoarele din seminfinale
+                                </br>13.30 - Festivitatea de premiere</br>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="panel panel-info"  style="text-align: center">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"><i class="fa fa-trophy fa-lg"> Premii </i></h3>
-                        </div>
-                        <div class="panel-body">
-                            <b>Open</b></br>I - 2500 RON + Cupe</br>II - 1500 RON + Cupe</br>III - 1000 RON + Cupe</br>IV - 700 RON</br>V - 500 RON</br>VI - 300 RON</br></br>
-                            <b>Echipe</b></br>IA - 4000 RON + Cupe</br>IIA - 2400 RON + Cupe</br>IIIA - 1200 RON + Cupe</br>IB - 700 RON</br>IIB - 500 RON</br>IC - 500 RON</br></br>
-                            <b>Premii speciale</b></br>Loc 1 tur 2 nepremiat - 300 RON</br>Cea mai bine clasata axa ieseana nepremiata - 250 RON</br></br>
-                            <b>Premiile nu sunt conditionate de numarul de participanti!</b>
+                    <div class="col-md-4">
+                        <div class="panel panel-info"  style="text-align: center">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-trophy fa-lg"> Premii </i></h3>
+                            </div>
+                            <div class="panel-body">
+                                <b>Open</b></br>I - 2500 RON + Cupe</br>II - 1500 RON + Cupe</br>III - 1000 RON + Cupe</br>IV - 700 RON</br>V - 500 RON</br>VI - 300 RON</br></br>
+                                <b>Echipe</b></br>IA - 4000 RON + Cupe</br>IIA - 2400 RON + Cupe</br>IIIA - 1200 RON + Cupe</br>IB - 700 RON</br>IIB - 500 RON</br>IC - 500 RON</br></br>
+                                <b>Premii speciale</b></br>Loc 1 tur 2 nepremiat - 300 RON</br>Cea mai bine clasata axa ieseana nepremiata - 250 RON</br></br>
+                                <b>Premiile nu sunt conditionate de numarul de participanti!</b>
 
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="panel panel-info"  style="text-align: center">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"><i class="fa fa-sign-in fa-lg"> Taxe concurs </i></h3>
-                        </div>
-                        <div class="panel-body">
-                            <b>Perechi Open</b> 160 RON / axa</br></br>
-                            <b>Echipe Danez</b> 400 RON / echipa</br></br>
-
-
+                            </div>
                         </div>
                     </div>
 
-                    <div class="panel panel-info"  style="text-align: left">
-                        <div class="panel-body">
-                            <p>Inscrierile se fac telefonic la numarul <a href="tel:0726745146">0726 745 146</a> până la data de 14.04.2014 sau <a href="http://www.iasi.bridge-club.ro/" target="_new">http://www.iasi.bridge-club.ro/</a>
-                            </p>
-                            <p>Confirmarile se sisteaza cu 60 de minute inainte de inceperea
-                                fiecarui concurs.
-                            </p>
-                            <p>La concursul Perechi OPEN se vor folosi done predistribuite.
-                            </p>
-                            <p>In sala de concurs, FUMATUL ESTE INTERZIS !
-                            </p>
-                            <p>Manager Turneu: Olteanu Romeo</br>
-                                Director Turneu: Damboianu Calin</br>
-                                Arbitru: Craciun Adrian</br>
-                                Arbitu: Ghergheli Carol
-                            </p>
+                    <div class="col-md-4">
+                        <div class="panel panel-info"  style="text-align: center">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-sign-in fa-lg"> Taxe concurs </i></h3>
+                            </div>
+                            <div class="panel-body">
+                                <b>Perechi Open</b> 160 RON / axa</br></br>
+                                <b>Echipe Danez</b> 400 RON / echipa</br></br>
 
+
+                            </div>
                         </div>
-                    </div>
 
+                        <div class="panel panel-info"  style="text-align: left">
+                            <div class="panel-body">
+                                <p>Inscrierile se fac telefonic la numarul <a href="tel:0726745146">0726 745 146</a> până la data de 14.04.2014 sau <a href="http://www.iasi.bridge-club.ro/" target="_new">http://www.iasi.bridge-club.ro/</a>
+                                </p>
+                                <p>Confirmarile se sisteaza cu 60 de minute inainte de inceperea
+                                    fiecarui concurs.
+                                </p>
+                                <p>La concursul Perechi OPEN se vor folosi done predistribuite.
+                                </p>
+                                <p>In sala de concurs, FUMATUL ESTE INTERZIS !
+                                </p>
+                                <p>Manager Turneu: Olteanu Romeo</br>
+                                    Director Turneu: Damboianu Calin</br>
+                                    Arbitru: Craciun Adrian</br>
+                                    Arbitru: Ghergheli Carol
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+
 
 
 
