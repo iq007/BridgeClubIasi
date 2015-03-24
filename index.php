@@ -10,8 +10,10 @@
 		<div class="jumbotron">
 			<h1>Bine ati venit!</h1>
 			<p>Intalnirile clubului de bridge au loc lunea, incepand cu ora 18.45, la casa de cultura "Mihai Ursache" din parcul Copou.</p>
-			<p><a role="button" class="btn btn-primary btn-lg" href="#" onClick="toggle('br_index_info');">Mai mult</a></p>
-		</div>
+            <p>Bridge Club Iasi va invita la <a href="concurs.php">Memorialul "Emil Alexandrescu"</a> care va avea loc in perioada 17 Aprilie - 19 Aprilie 2015 la motel Bucium, sub patronajul Federatiei Romane de Bridge.</p>
+            <p><a role="button" class="btn btn-primary btn-lg" href="#" onClick="toggle('br_index_info');">Mai mult</a></p>
+
+        </div>
 		<div id="br_index_info" class="well" style="display: none">
 			<div class="row">
 				<div class="col-md-4">
