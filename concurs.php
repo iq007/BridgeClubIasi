@@ -63,7 +63,7 @@
                             </div>
                             <div class="panel-body">
                                 <b>Open</b></br>I - 2500 RON + Cupe</br>II - 1500 RON + Cupe</br>III - 1000 RON + Cupe</br>IV - 700 RON</br>V - 500 RON</br>VI - 300 RON</br></br>
-                                <b>Echipe</b></br>IA - 4000 RON + Cupe</br>IIA - 2400 RON + Cupe</br>IIIA - 1200 RON + Cupe</br>IB - 700 RON</br>IIB - 500 RON</br>IC - 500 RON</br></br>
+                                <b>Echipe</b></br>IA - 4000 RON + Cupe</br>IIA - 2400 RON + Cupe</br>IIIA - 1200 RON + Cupe</br>IVA - 800 RON</br>IB - 700 RON</br>IIB - 500 RON</br>IC - 500 RON</br></br>
                                 <b>Premii speciale</b></br>Loc 1 tur 2 nepremiat - 300 RON</br>Cea mai bine clasata axa ieseana nepremiata - 250 RON</br></br>
                                 <b>Premiile nu sunt conditionate de numarul de participanti!</b>
 
