@@ -11,7 +11,8 @@
 			<h1>Bine ati venit!</h1>
 			<p>Intalnirile clubului de bridge au loc lunea, incepand cu ora 18.45, la casa de cultura "Mihai Ursache" din parcul Copou.</p>
             <!--p>Bridge Club Iasi va invita la <a href="concurs.php">Memorialul "Emil Alexandrescu"</a> care va avea loc in perioada 17 Aprilie - 19 Aprilie 2015 la motel Bucium, sub patronajul Federatiei Romane de Bridge.</p-->
-            <p>Clubul de bridge este inchis pe perioada <a href="http://www.frbridge.ro/images/stories/competitii/program%20festival%20mamaia_14.doc">Festivalului International de Bridge Mamaia 2015</a>, ce are loc intre 24.08.2015 - 6.09.2015. Ne reluam activitatea pe 7 septembrie!</p>
+            <p>Clubul de bridge este inchis in perioada intre 24.08.2015 - 13.09.2015. Ne reluam activitatea pe 14 septembrie!</p>
+			<p><a href="http://www.frbridge.ro/images/stories/competitii/program%20festival%20mamaia_14.doc">Festivalul International de Bridge Mamaia 2015, 24.08.2015-05.09.2015</a></p>
 			<p><button class="btn btn-primary btn-lg" type="button" data-toggle="collapse" data-target="#br_index_info" aria-expanded="false" aria-controls="br_index_info">Mai mult</button></p>
 
         </div>
