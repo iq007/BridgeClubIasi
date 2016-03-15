@@ -30,10 +30,6 @@ body {
     padding-top: 10px;
 }
 
-.social-collapse{
-    text-align: left;
-}
-
 .alert{
 
     width:97%;
@@ -41,4 +37,8 @@ body {
     margin-left: auto; /*set to a negative number 1/2 of your width*/
     text-align: center;
 
+}
+
+@media  {
+    
 }

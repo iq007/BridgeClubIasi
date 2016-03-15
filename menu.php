@@ -33,6 +33,11 @@
                   
                   <li><a href="https://ebooksbridge.com/www/ebb/" target="_new">E-BooksBridge</a></li>
 
+                  <li class="divider"></li>
+
+                  <li><a href="http://www.madscape.ro/" target="_new">Madscape - Escape Room Iasi</a></li>
+                  <li><a href="http://www.teatruidiot.ro//" target="_new">Trupa de teatru IDIOT</a></li>
+
                 </ul>
               </li>
             </ul>
