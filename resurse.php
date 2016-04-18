@@ -12,8 +12,8 @@
 			<p><a role="button" class="btn btn-primary btn-lg" href="#" onClick="toggle('br_resurse_info');">Mai mult</a></p>
 		</div>
 		<div id="br_resurse_info" class="well" style="display: none">
-			<p><a href="http://www.completebridge.ro/download.php?id_download=6" target="_blank"><button class="btn btn-lg btn-link" type="button">Invata sa joci bridge 1</button></a></p>
-			<p><a href="http://www.completebridge.ro/download.php?id_download=7" target="_blank"><button class="btn btn-lg btn-link" type="button">Invata sa joci bridge 2</button></a></p>
+			<p><a href="http://www.bridge-tm.org//Downloads/setup_LTPB1.exe" target="_blank"><button class="btn btn-lg btn-link" type="button">Invata sa joci bridge 1</button></a></p>
+			<p><a href="http://www.bridge-tm.org//Downloads/setup_LTPB2.exe" target="_blank"><button class="btn btn-lg btn-link" type="button">Invata sa joci bridge 2</button></a></p>
 			<p><a href="downloads/sistem.doc" target="_new"><button class="btn btn-lg btn-link" type="button">Sistemul majora in 5 pentru incepatori</button></a></p>
 			<p><a href="downloads/2-1.pdf" target="_new"><button class="btn btn-lg btn-link" type="button">Sistemul 2/1 (englez&#259;)</button></a></p>
 			<p><a href="downloads/Precision Bidding System.html" target="_new"<button class="btn btn-lg btn-link" type="button">Trefla de precizie (englez&#259;)</button></a></p>
