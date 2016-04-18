@@ -2,10 +2,13 @@ function hideAlerts(){
     $('.alert').hide();
 }
 
-function hide(id){
-	$('#'+id).hide();
-	$('#'+id+'_button').removeClass('active');
+function hide(list){
+    list.forEach(function(entry){
+        $('#'+entry).hide();
+        $('#'+entry+'_button').removeClass('active');
+    })
 }
+
 
 function show(id){
 	$('#'+id).show();
