@@ -38,7 +38,7 @@
 				</div>
 			</div>
 		<div id="br_clasament_an_curent" class="well" style="display: none">
-			Clasament 2016 - Updated 2016-04-17 - <a href="https://drive.google.com/file/d/0B8ekIUhV__dNeDM0R1JqbkFCWFU/view?ts=571495cc" target="_blank">Link sursa</a>
+			Clasament 2016 - Updated 2016-04-26 - <a href="https://drive.google.com/file/d/0B8ekIUhV__dNeDM0R1JqbkFCWFU/view?ts=571495cc" target="_blank">Link sursa</a>
 			</br></br>
 			<div class="table-responsive">
 				<table id="clasament">
