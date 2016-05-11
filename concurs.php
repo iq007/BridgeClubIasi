@@ -14,7 +14,7 @@
 <div id="br_concurs_noutati" class="container" role="main">
     <div class="jumbotron">
         <!--p>Bridge Club Iasi va invita la Memorialul "Emil Alexandrescu", editia a XXV-a, care va avea loc in perioada 6 Mai - 8 Mai 2016 la Hotel Moldova, sub patronajul Federatiei Romane de Bridge.</p-->
-        <p><a href="https://5a5f8829a44ea57b8739307c792e197d1aedfbaa-www.googledrive.com/host/0Bzp_AZ8qHYHOZVJDY0VucWg3YXM/openiasi-session2.htm" target="_blank">Rezultate concurs perechi</a></p>
+        <p><a href="./arhiva/iasi2016.xls" target="_blank">Rezultate 2016</a></p>
         <p>&nbsp;</p>
         <div id="br_concurs_info" class="well" style="display: none; text-align: center">
             <div class="row">
